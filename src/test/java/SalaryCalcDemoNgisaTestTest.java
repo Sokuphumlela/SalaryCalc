@@ -8,9 +8,9 @@ public class SalaryCalcDemoNgisaTestTest {
 
     @Test
     public void SalTest(){
-        int intExpected=100;
+
         CalcSal ObjSalary = new CalcSal();
-        Assert.assertEquals(intExpected,ObjSalary.Salary(5,20));
+        Assert.assertEquals(100,ObjSalary.Salary(5,20));
 
     }
 
